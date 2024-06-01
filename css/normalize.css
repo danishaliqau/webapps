@@ -234,7 +234,7 @@ big {
 
 h1,h2,h3,h4,h5,h6{
 	font-weight:500;
-	color:#2C2D3F;
+	color:#8c6c8c;
 }
 a,button{
 	-webkit-transition:all 0.3s ease;
@@ -455,7 +455,7 @@ Preloader Area CSS
 	bottom: 0;
 	left: 0;
 	right: 0;
-	background: #2C2D3F;
+	background: #8c6c8c;
 	-webkit-transform: scaleX(0);
 	transform: scaleX(0);
 	-webkit-transform-origin: 50%;
@@ -483,7 +483,7 @@ Preloader Area CSS
 	text-transform: capitalize;
 	margin-bottom: 24px;
 	position: relative;
-	color: #2C2D3F;
+	color: #8c6c8c;
 }
 .section-title p{
 	font-size:15px;
@@ -552,7 +552,7 @@ Preloader Area CSS
 	padding:0;
 }
 .breadcrumbs ul li a:hover{
-	color:#2C2D3F;
+	color:#8c6c8c;
 }
 .breadcrumbs ul li.active a {
 	color: #fff;
