@@ -4191,9 +4191,8 @@ body{
 	border-radius: 50px;
 }
 .section-separator {
-	height: 5px;
+	height: 1px;
 	background: linear-gradient(to right, #1A76D1, #8c6c8c);
-	margin: 5px 0; /* Optional: Add some margin for spacing */
   }
   
   
@@ -4221,3 +4220,29 @@ body{
 	object-fit: cover; /* Ensures the video covers the entire container */
   }
   
+#particles-js{
+	width: 100%;
+	height: 490px;
+	background-color: #fff;
+	background-image: url('');
+	background-size: cover;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	position: relative;
+	margin-top: 10px;
+	margin-bottom: 10px;
+  }
+  
+  .welcome-note {
+	position: absolute;
+    margin-top: 50px;
+    padding: 50px;
+    width: 50vw;
+  }
+  .welcome-note h1 {
+    color: #8c6c8c; /* Default color for h1 */
+  }
+
+  .welcome-note h1 span {
+    color: #1A76D1; /* Color for text within span */
+  }
