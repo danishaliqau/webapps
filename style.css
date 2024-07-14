@@ -4398,3 +4398,10 @@ body{
 	.service-text li:last-child {
 		border-bottom: none;
 	}
+	.service-header-img img{
+	max-width: 100%;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	}
