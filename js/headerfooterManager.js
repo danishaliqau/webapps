@@ -65,12 +65,12 @@ class SpecialHeader extends HTMLElement {
 												<li><a href="pathologylabs-department-details.html">Biomedical Engineering & IT</a></li>
 											</ul>
 										</li>
-										<li><a href="#">Heathcare Professionals <i class="icofont-rounded-down"></i></a>
+										<li><a href="doctorsandstaff.html">Heathcare Professionals <i class="icofont-rounded-down"></i></a>
 											<ul class="dropdown">
-												<li><a href="doctorsandstaff.html">Radiation & Clinical Oncologists</a></li>
+												<li><a href="doctorsandstaff.html?#onlogogist">Radiation & Clinical Oncologists</a></li>
 												<li><a href="doctorsandstaff.html">Nuclear Physicians</a></li>
 												<li><a href="doctorsandstaff.html">Medical Physicists</a></li>
-												<li><a href="doctorsandstaff.html">Radiologists</a></li>
+												<li><a href="doctorsandstaff.html?#radiologists">Radiologists</a></li>
 												<li><a href="doctorsandstaff.html">Haematologists</a></li>
 												<li><a href="doctorsandstaff.html">Histopathologists</a></li>
 												<li><a href="doctorsandstaff.html">Engineers & IT Professionals</a></li>
@@ -78,7 +78,7 @@ class SpecialHeader extends HTMLElement {
 											</ul>
 										</li>
 
-										<li><a href="#">Research & Development <i class="icofont-rounded-down"></i></a>
+										<li><a href="researchanddevelopment.html">Research & Development <i class="icofont-rounded-down"></i></a>
 											<ul class="dropdown">
 												<li><a href="#">Training Programs</a></li>
 												<li><a href="#">RTMC</a></li>
@@ -86,7 +86,7 @@ class SpecialHeader extends HTMLElement {
 											</ul>
 										</li>
 
-										<li><a href="#">Patient Support & Care <i class="icofont-rounded-down"></i></a>
+										<li><a href="patientcaresupport.html">Patient Support & Care <i class="icofont-rounded-down"></i></a>
 											<ul class="dropdown">
 												<li><a href="#">NPWS</a></li>
 												<li><a href="#">Patient Support Group</a></li>

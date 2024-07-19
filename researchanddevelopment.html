@@ -1,0 +1,437 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+	<!-- Meta Tags -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="keywords" content="Site keywords here">
+	<meta name="description" content="">
+	<meta name='copyright' content=''>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Title -->
+	<title>NORI - Nuclear Medicine Oncology & Radiotherapy Institute</title>
+
+	<!-- Favicon -->
+	<link rel="icon" href="img/favicon.png">
+
+	<!-- Google Fonts -->
+	<link
+		href="https://fonts.googleapis.com/css?family=Poppins:200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap"
+		rel="stylesheet">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- Nice Select CSS -->
+	<link rel="stylesheet" href="css/nice-select.css">
+	<!-- Font Awesome CSS -->
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<!-- icofont CSS -->
+	<link rel="stylesheet" href="css/icofont.css">
+	<!-- Slicknav -->
+	<link rel="stylesheet" href="css/slicknav.min.css">
+	<!-- Owl Carousel CSS -->
+	<link rel="stylesheet" href="css/owl-carousel.css">
+	<!-- Datepicker CSS -->
+	<link rel="stylesheet" href="css/datepicker.css">
+	<!-- Animate CSS -->
+	<link rel="stylesheet" href="css/animate.min.css">
+	<!-- Magnific Popup CSS -->
+	<link rel="stylesheet" href="css/magnific-popup.css">
+
+	<!-- Medipro CSS -->
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/responsive.css">
+	<link rel="stylesheet" href="css/styles.scss">
+	<!-- Start WOWSlider.com HEAD section -->
+	<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+	<script type="text/javascript" src="engine1/jquery.js"></script>
+	<!-- End WOWSlider.com HEAD section -->
+
+	<style>
+		/*SERVICES*/
+		section {
+			width: 100%;
+			display: grid;
+			place-items: center;
+		}
+
+		.row {
+			display: flex;
+			flex-wrap: wrap;
+		}
+
+		.column {
+			width: 100%;
+			padding: 0 1em 1em 1em;
+			text-align: center;
+		}
+
+		.card {
+			width: 100%;
+			height: 100%;
+			padding: 2em 1.5em;
+			background: linear-gradient(#ffffff 50%, #1A76D1 50%);
+			background-size: 100% 200%;
+			background-position: 0 2.5%;
+			border-radius: 5px;
+			cursor: pointer;
+			transition: 0.5s;
+		}
+
+		.icon-wrapper {
+			background-color: #89CFF0;
+			position: relative;
+			margin: auto;
+			font-size: 30px;
+			height: 2.5em;
+			width: 2.5em;
+			color: #ffffff;
+			border-radius: 50%;
+			display: grid;
+			place-items: center;
+			transition: 0.5s;
+		}
+
+		.card:hover {
+			background-position: 0 100%;
+		}
+
+		.card:hover .icon-wrapper {
+			background-color: #ffffff;
+			color: #1A76D1;
+		}
+
+		.card:hover h3 {
+			color: #ffffff;
+		}
+
+		.card:hover p {
+			color: #f0f0f0;
+		}
+
+		@media screen and (min-width: 768px) {
+			section {
+				padding: 0 2em;
+			}
+
+			.column {
+				flex: 0 50%;
+				max-width: 50%;
+			}
+		}
+
+		@media screen and (min-width: 992px) {
+			section {
+				padding: 1em 3em;
+			}
+
+			.column {
+				flex: 0 0 33.33%;
+				max-width: 33.33%;
+			}
+		}
+
+
+		.procedure {}
+
+		.procedure h2 {
+			font-size: 1.8rem;
+			margin-bottom: 1rem;
+			padding-bottom: 0.5rem;
+		}
+
+		.content {
+			display: flex;
+			align-items: flex-start;
+			background: #f9f9f9;
+			padding: 1rem;
+			border-radius: 10px;
+			box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+			margin-bottom: 2rem;
+		}
+
+		.content img {
+			width: 200px;
+			height: auto;
+			margin-right: 1.5rem;
+			border-radius: 10px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+		}
+
+		.text {
+			flex: 1;
+		}
+
+		.text ul,
+		.text p {
+			margin-left: 1rem;
+			margin-bottom: 1rem;
+		}
+
+		.text ul li {
+			margin-bottom: 0.5rem;
+			padding-left: 1rem;
+			position: relative;
+		}
+
+		.text ul li:before {
+			content: '•';
+			color: #4CAF50;
+			font-weight: bold;
+			display: inline-block;
+			width: 1rem;
+			margin-left: -1rem;
+		}
+
+		.news-single {
+			padding: 0px !important;
+		}
+
+		#intro-header.withBorder {
+    box-shadow: 0 0 4px 1px var(--boxShadowColor);
+    background-color: var(--colorWhite);
+} 
+#intro-header {
+    position: relative;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+#intro-header #intro-bg-layer {
+    background: #1A76D1;
+    mix-blend-mode: multiply;
+    height: 35px;
+    width: 100%;
+    inset: 0;
+    z-index: 1;
+    border-radius: 10px 10px 35px 0;
+}
+#intro-header .intro-wrapper {
+    background: #1A76D1;
+    border-radius: 0 10px 10px;
+}
+#intro-header .intro-wrapper .intro-body {
+    padding: 18px;
+    background-color: #fff;
+    border-radius: 35px 10px 10px;
+    display: flex;
+    align-items: flex-start;
+}
+	</style>
+
+</head>
+
+<body>
+
+	<!-- Preloader -->
+	<div class="preloader">
+		<div class="loader">
+			<div class="loader-outter"></div>
+			<div class="loader-inner"></div>
+
+			<div class="indicator">
+				<svg width="16px" height="12px">
+					<polyline id="back" points="1 6 4 6 6 11 10 1 12 6 15 6"></polyline>
+					<polyline id="front" points="1 6 4 6 6 11 10 1 12 6 15 6"></polyline>
+				</svg>
+			</div>
+		</div>
+	</div>
+	<!-- End Preloader -->
+
+
+	<!-- Header Area -->
+	<special-header></special-header>
+	<!-- End Header Area -->
+
+	<div class="section-separator"></div>
+
+	<!-- Single News -->
+	<section class="news-single section">
+		<div class="container">
+			<div class="row">
+				<!--Left Section-->
+				<div class="col-lg-8 col-md-8 col-12">
+					<div class="single-main">
+
+						<div id="intro-header" class="withBorder">
+							<div id="intro-bg-layer"></div><!---->
+							<div class="intro-wrapper">
+								<div class="intro-body">
+									<div class="left-img"><!----></div>
+									<div class="right-txt ms-4">
+										<h3 class="text-title">Research & Development</h3>
+										<div>
+											Select the brand(s) below to view the samples, vouchers, and/or coupons
+												available.
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>						
+
+						<!-- Current Research Projects -->
+						<div class="department-history box">
+							<div class="ribbon-2">Current Research Projects</div>
+							<div class="ribbon-text">
+								Explore our ongoing research projects aimed at advancing medical knowledge and improving
+								patient care.
+							</div>
+						</div>
+
+						<!-- Research Achievements -->
+						<div class="department-history box">
+							<div class="ribbon-2">Research Achievements</div>
+							<div class="ribbon-text">
+								Discover our significant research milestones and breakthroughs that have made an impact
+								on the medical field.
+							</div>
+						</div>
+
+						<!-- Clinical Trials -->
+						<div class="department-history box">
+							<div class="ribbon-2">Clinical Trials</div>
+							<div class="ribbon-text">
+								Learn about our active clinical trials and how you can participate to contribute to
+								medical advancements.
+							</div>
+						</div>
+
+						<!-- Research Publications -->
+						<div class="department-history box">
+							<div class="ribbon-2">Research Publications</div>
+							<div class="ribbon-text">
+								Browse through our published research papers and articles in prestigious medical
+								journals.
+							</div>
+						</div>
+
+						<!-- Collaborative Research -->
+						<div class="department-history box">
+							<div class="ribbon-2">Collaborative Research</div>
+							<div class="ribbon-text">
+								Find out about our collaborative efforts with other institutions and organizations to
+								enhance research outcomes.
+							</div>
+						</div>
+
+						<!-- Research Facilities -->
+						<div class="department-history box">
+							<div class="ribbon-2">Research Facilities</div>
+							<div class="ribbon-text">
+								Get an overview of our state-of-the-art research facilities and laboratories that
+								support our research activities.
+							</div>
+						</div>
+
+						<!-- Research Team -->
+						<div class="department-history box">
+							<div class="ribbon left">Research Team</div>
+							<div class="ribbon-text">
+								Meet our dedicated team of researchers and scientists who are at the forefront of
+								medical innovation.
+							</div>
+						</div>
+
+						<!-- Funding and Grants -->
+						<div class="department-history box">
+							<div class="ribbon-2">Funding and Grants</div>
+							<div class="ribbon-text">
+								Learn about the funding and grants that support our research initiatives and how you can
+								contribute.
+							</div>
+						</div>
+
+						<!-- Innovation and Technology -->
+						<div class="department-history box">
+							<div class="ribbon-2">Innovation and Technology</div>
+							<div class="ribbon-text">
+								Discover the innovative technologies and methodologies we use in our research to push
+								the boundaries of medical science.
+							</div>
+						</div>
+
+						<!-- Upcoming Research Events -->
+						<div class="department-history box">
+							<div class="ribbon-2">Upcoming Research Events</div>
+							<div class="ribbon-text">
+								Stay informed about upcoming research events, seminars, and conferences hosted by our
+								institution.
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+				<!--Right Section-->
+				<div class="col-lg-4 col-md-4 col-12">
+					<div class="main-sidebar">
+						<!-- Single Widget -->
+						<div class="single-widget category">
+							<h3 class="title">Related Programs</h3>
+							<ul class="related-services">
+								<li><a href="#"><i class="fa fa-eye"></i> Training Programs </a></li>
+								<li><a href="#"><i class="fa fa-eye"></i> RTMC </a></li>
+								<li><a href="#"><i class="fa fa-eye"></i> Projects & Publications </a></li>
+							</ul>
+						</div>
+						<!--/ End Single Widget -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--/ End Single News -->
+
+	<!-- Footer Area -->
+	<special-footer></special-footer>
+	<!--/ End Footer Area -->
+
+	<script src="js/headerfooterManager.js"></script>
+
+	<!-- jquery Min JS -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jquery Migrate JS -->
+	<script src="js/jquery-migrate-3.0.0.js"></script>
+	<!-- jquery Ui JS -->
+	<script src="js/jquery-ui.min.js"></script>
+	<!-- Easing JS -->
+	<script src="js/easing.js"></script>
+	<!-- Color JS -->
+	<script src="js/colors.js"></script>
+	<!-- Popper JS -->
+	<script src="js/popper.min.js"></script>
+	<!-- Bootstrap Datepicker JS -->
+	<script src="js/bootstrap-datepicker.js"></script>
+	<!-- Jquery Nav JS -->
+	<script src="js/jquery.nav.js"></script>
+	<!-- Slicknav JS -->
+	<script src="js/slicknav.min.js"></script>
+	<!-- ScrollUp JS -->
+	<script src="js/jquery.scrollUp.min.js"></script>
+	<!-- Niceselect JS -->
+	<script src="js/niceselect.js"></script>
+	<!-- Tilt Jquery JS -->
+	<script src="js/tilt.jquery.min.js"></script>
+	<!-- Owl Carousel JS -->
+	<script src="js/owl-carousel.js"></script>
+	<!-- counterup JS -->
+	<script src="js/jquery.counterup.min.js"></script>
+	<!-- Steller JS -->
+	<script src="js/steller.js"></script>
+	<!-- Wow JS -->
+	<script src="js/wow.min.js"></script>
+	<!-- Magnific Popup JS -->
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<!-- Counter Up CDN JS -->
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+	<!-- Bootstrap JS -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Main JS -->
+	<script src="js/main.js"></script>
+
+</body>
+
+</html>
