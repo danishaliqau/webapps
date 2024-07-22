@@ -59,7 +59,7 @@ class SpecialHeader extends HTMLElement {
 												<li><a href="oncology-department-details.html">Radiation & Clinical Oncology</a></li>
 												<li><a href="nuclearmedicine-department-details.html">Nuclear Medicine and Molecular Imaging</a></li>
 												<li><a href="#">Medical Physics</a></li>
-												<li><a href="radiolog-department-details.html">Diagnosis & Interventional Radiology</a></li>
+												<li><a href="radiolog-department-details.html">Diagnostic and Interventional Radiology</a></li>
 												<li><a href="#">Haematology</a></li>
 												<li><a href="#">Histopathology</a></li>
 												<li><a href="pathologylabs-department-details.html">Biomedical Engineering & IT</a></li>
