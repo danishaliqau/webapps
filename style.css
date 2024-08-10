@@ -48,6 +48,9 @@ Version:	1.1
 /*=============================
 	Global CSS 
 ===============================*/
+html {
+	scroll-behavior: smooth;
+  }
 body{
     font-family: 'Poppins', sans-serif;
 	font-weight: 400;
@@ -587,6 +590,18 @@ body{
 	End Header CSS
 ===========================*/
 
+.second-theme-color{
+	color: #1A76D1;
+}
+.first-theme-color{
+	color: #8c6c8c;
+}
+.second-theme-background{
+	background-color: #1A76D1;
+}
+.second-theme-background{
+	background-color: #1A76D1;
+}
 /*===========================
 	Start Hero Area CSS
 =============================*/
@@ -4598,12 +4613,11 @@ body{
 }
 }
 
-#intro-header {
+.intro-header {
     position: relative;
-    margin-bottom: 30px;
     border-radius: 10px;
 }
-#intro-header #intro-bg-layer {
+.intro-header #intro-bg-layer {
     background: #1A76D1;
     mix-blend-mode: multiply;
     height: 35px;
@@ -4612,18 +4626,18 @@ body{
     z-index: 1;
     border-radius: 10px 10px 35px 0;
 }
-#intro-header .intro-wrapper {
+.intro-header .intro-wrapper {
     background: #1A76D1;
     border-radius: 0 10px 10px;
 }
-#intro-header .intro-wrapper .intro-body {
+.intro-header .intro-wrapper .intro-body {
     padding: 18px;
     background-color: #fff;
     border-radius: 35px 10px 10px;
     display: flex;
     align-items: flex-start;
 }
-#intro-header .intro-wrapper .intro-body .button .btn{
+.intro-header .intro-wrapper .intro-body .button .btn{
     color: #fff !important;
 }
 

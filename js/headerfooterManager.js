@@ -53,7 +53,7 @@ class SpecialHeader extends HTMLElement {
 									<ul class="nav menu">
 										<li class="active"><a href="index.html">Home</a></li>
 										<li><a href="aboutus.html">About Us</a></li>
-										<li><a href="services.html">Services </a></li>
+										<li><a href="Services.html">Services </a></li>
 										<li><a href="#">Departments <i class="icofont-rounded-down"></i></a>
 											<ul class="dropdown">
 												<li><a href="oncology-department-details.html">Radiation & Clinical Oncology</a></li>
@@ -65,16 +65,16 @@ class SpecialHeader extends HTMLElement {
 												<li><a href="pathologylabs-department-details.html">Biomedical Engineering & IT</a></li>
 											</ul>
 										</li>
-										<li><a href="doctorsandstaff.html">Heathcare Professionals <i class="icofont-rounded-down"></i></a>
+										<li><a href="#">Heathcare Professionals <i class="icofont-rounded-down"></i></a>
 											<ul class="dropdown">
-												<li><a href="doctorsandstaff.html?#onlogogist">Radiation & Clinical Oncologists</a></li>
-												<li><a href="doctorsandstaff.html">Nuclear Physicians</a></li>
-												<li><a href="doctorsandstaff.html">Medical Physicists</a></li>
-												<li><a href="doctorsandstaff.html?#radiologists">Radiologists</a></li>
-												<li><a href="doctorsandstaff.html">Haematologists</a></li>
-												<li><a href="doctorsandstaff.html">Histopathologists</a></li>
-												<li><a href="doctorsandstaff.html">Engineers & IT Professionals</a></li>
-												<li><a href="doctorsandstaff.html">Others</a></li>
+												<li><a href="doctorsand-oncologist.html?">Radiation & Clinical Oncologists</a></li>
+												<li><a href="#">Nuclear Physicians</a></li>
+												<li><a href="#">Medical Physicists</a></li>
+												<li><a href="doctorsand-radiologist.html?">Radiologists</a></li>
+												<li><a href="#">Haematologists</a></li>
+												<li><a href="#">Histopathologists</a></li>
+												<li><a href="#">Engineers & IT Professionals</a></li>
+												<li><a href="#">Others</a></li>
 											</ul>
 										</li>
 
